@@ -522,7 +522,8 @@ class GCodeAnalyzer:
 # Used to fix the GCode coming out of Prusa
 class GCodeValidator:
 
-    gcodes_to_omit = ['M104', 'M109', 'M900', 'M140', 'M190']
+#    gcodes_to_omit = ['M104', 'M109', 'M900', 'M140', 'M190']
+    gcodes_to_omit = ['M900']
 
     # Init
     def __init__(self):
